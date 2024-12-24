@@ -2,7 +2,7 @@
 
 A small applicaation where users can input their information and generate a CV/résumé.
 
-[Click to see live]()
+[Click to see live](https://sahil-cv-app.netlify.app/)
 
 ![Preview](./public/preview.png)
 
