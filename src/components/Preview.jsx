@@ -30,7 +30,7 @@ function Preview({data}) {
                         </div>
                     </div>
                     <div className="profile-about profile-subsection">
-                        {userProfile.about}
+                        {`"${userProfile.about}"`}
                     </div>
                 </div>
 
@@ -40,24 +40,24 @@ function Preview({data}) {
                     renderItem={(element) => {
                         return (
                             <div className="education-subsection" key={element.id}>
-                                <div className="education-year-and-location">
-                                    <div className="education-year">
-                                        {element.startYear + " - " + element.endYear}
-                                    </div>
-                                    <div className="education-location">
-                                        {element.location}
-                                    </div>
-                                </div>
-                                <div className="education-school-and-degree">
-                                    <div className="education-school">
-                                        {element.school}
-                                    </div>
+                                <div className="education-degree-and-year">
                                     <div className="education-degree">
                                         {element.degree}
                                     </div>
+                                    <div className="education-year">
+                                        {element.startYear + " - " + element.endYear}
+                                    </div>
                                 </div>
-                                <div className="education-marks">
-                                    {element.marks}
+                                <div className="education-school-and-marks">
+                                    <div className="education-school">
+                                        {element.school}
+                                    </div>
+                                    <div className="education-marks">
+                                        {element.marks}
+                                    </div>
+                                </div>
+                                <div className="education-location">
+                                    {element.location}
                                 </div>
                             </div>
                         )
