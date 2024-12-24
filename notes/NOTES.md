@@ -1,6 +1,6 @@
 # CV Builder Application
 
-## 20-12-1014
+## 20-12-2014
 
 - Set up the react environment for the project.
 - Project Design
@@ -22,3 +22,7 @@
 * made the `components` necessary for `live preview`
 * added functionality to `Fill example` & `Clear` buttons
 * I am currently facing challenge on how to make the `uuid` of each keypoints or each techstack. Do i have to pass eventhandler of each and every buttons in form from `App` itself. I will think about it tomorrow.
+
+## 24-12-2024
+
+-\_\_-
